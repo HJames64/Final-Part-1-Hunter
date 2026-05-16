@@ -1,0 +1,12 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.sln
+*.suo
+*.code-workspace
+*.vs/
+.vscode/
+.DS_Store
+Thumbs.db
