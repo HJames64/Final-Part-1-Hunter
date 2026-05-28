@@ -1,8 +1,14 @@
-[10768:9948:0515/194808.727:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[10768:9948:0515/194808.822:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[25904:28284:0515/194814.231:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-F8F0B73462F491E4235CA5429130D384 will be ignored
-[10768:9948:0515/194815.227:ERROR:device_event_log_impl.cc(196)] [19:48:14.901] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
-[6492:27448:0515/194818.923:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 13
-[10768:21668:0515/194818.973:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[10768:21668:0515/194819.022:ERROR:cast_crl.cc(443)] CRL - Verification failed.
-[10768:9948:0515/195713.642:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[24520:3140:0527/190633.594:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[24520:3140:0527/190633.680:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[24520:3140:0527/190639.457:ERROR:device_event_log_impl.cc(196)] [19:06:39.384] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[25456:24120:0527/190640.139:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-1442B7CE1A554931A2F8E6CCDEBD60EC will be ignored
+[14492:24624:0527/190640.543:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 19
+[14492:24624:0527/190640.861:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 31
+[14492:24624:0527/190641.198:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 37
+[14492:24624:0527/190643.876:WARNING:spdy_session.cc(2985)] Received HEADERS for invalid stream 43
+[24520:27256:0527/190644.051:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[24520:27256:0527/190644.223:ERROR:cast_crl.cc(443)] CRL - Verification failed.
+[24520:3140:0527/192411.047:ERROR:device_event_log_impl.cc(196)] [19:24:10.719] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24520:3140:0527/192411.047:ERROR:device_event_log_impl.cc(196)] [19:24:10.731] USB: usb_service_win.cc:308 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+[24520:3140:0527/192411.047:ERROR:device_event_log_impl.cc(196)] [19:24:10.861] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+[24520:3140:0527/195950.745:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
