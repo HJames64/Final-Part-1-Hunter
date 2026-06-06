@@ -3,6 +3,7 @@
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include "ArenaPC.h"
 AArenaAICharacter::AArenaAICharacter()
 {
     PrimaryActorTick.bCanEverTick = true;
@@ -105,6 +106,15 @@ float AArenaAICharacter::TakeDamage(float DamageAmount, FDamageEvent const& Dama
     // 2. Check for Death
     if (Health <= 0.0f)
     {
+
+        AArenaPC* PlayerChar = Cast<AArenaPC>(
+            UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+        if (PlayerChar)
+        {
+            PlayerChar->Eliminations++;
+        }
+
+
         if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, TEXT("💀 AI KILLED! RESPAWNING... 💀"));
 
         // 3. Find a safe spot to drop the new AI (600 units straight up from where it died)

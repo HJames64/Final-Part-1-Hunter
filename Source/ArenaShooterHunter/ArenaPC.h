@@ -13,6 +13,10 @@ class ARENASHOOTERHUNTER_API AArenaPC : public ACharacter
 public:
     AArenaPC();
 
+public:
+    UPROPERTY(BlueprintReadWrite, Category = "Score")
+    int32 Eliminations = 0;
+
 protected:
 
     UPROPERTY(EditDefaultsOnly, Category = "Combat")

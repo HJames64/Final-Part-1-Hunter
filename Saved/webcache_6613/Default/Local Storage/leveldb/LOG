@@ -1,3 +1,5 @@
-2026/05/27-19:06:33.742 681c Reusing MANIFEST C:\Users\hunte\Documents\Unreal Projects\ArenaShooterHunter\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
-2026/05/27-19:06:33.749 681c Recovering log #10
-2026/05/27-19:06:33.751 681c Reusing old log C:\Users\hunte\Documents\Unreal Projects\ArenaShooterHunter\Saved\webcache_6613\Default\Local Storage\leveldb/000010.log 
+2026/06/05-19:11:06.693 603c Reusing MANIFEST C:\Users\hunte\Documents\Unreal Projects\ArenaShooterHunter\Saved\webcache_6613\Default\Local Storage\leveldb/MANIFEST-000001
+2026/06/05-19:11:06.713 603c Recovering log #13
+2026/06/05-19:11:06.713 603c Level-0 table #15: started
+2026/06/05-19:11:06.728 603c Level-0 table #15: 69846 bytes OK
+2026/06/05-19:11:06.731 603c Delete type=0 #13
