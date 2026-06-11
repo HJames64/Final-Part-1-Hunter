@@ -40,6 +40,8 @@ public:
 	// The AI's starting health
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float Health = 100.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
+	float MaxHealth = 100.0f;
 
 	// The function that listens for incoming damage
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent, class AController* EventInstigator, AActor* DamageCauser) override;
