@@ -26,8 +26,6 @@ protected:
 
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-    UPROPERTY(VisibleAnywhere, Category = "Components")
-    class UStaticMeshComponent* TempMesh;
 
     // Renamed to FPCamera to force Unreal to build a fresh one
     UPROPERTY(VisibleAnywhere, Category = "Components")

@@ -6,13 +6,12 @@
 
 AArenaPC::AArenaPC()
 {
-    // Create the temporary static mesh and attach it
-    TempMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TempMesh"));
-    TempMesh->SetupAttachment(RootComponent);
+
 
     // Create the fresh camera and attach it
     FPCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FPCamera"));
-    FPCamera->SetupAttachment(TempMesh);
+    FPCamera->SetupAttachment(RootComponent);
+    FPCamera->SetRelativeLocation(FVector(0.f, 0.f, 60.f));
     FPCamera->bUsePawnControlRotation = true;
 }
 
